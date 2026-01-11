@@ -1,0 +1,13 @@
+# Ignore log and temporary files
+*.log
+*.tmp
+
+# Ignore Java/IDE metadata (prevents red-line errors from syncing)
+.project
+.classpath
+.settings/
+bin/
+target/
+
+# Ignore Python cache (if any)
+__pycache__/
